@@ -1,0 +1,40 @@
+
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  text-align: center;
+}
+h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	  color: #00B6FF;
+	  margin-bottom: 0;
+	  padding-top: 120px;
+	}
+p{
+	margin-top: 0
+	}
+h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	  color: #00B6FF;
+	}
+hr{width: 300px;
+}
+ul {
+  list-style-type: none;
+  padding-left:0;
+}
+h4{
+	  color: #00B6FF;
+	text-transform: uppercase;
+}
+#slogan{
+	font-style: italic;
+	font-size: 40px;
+}
+#description{
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+}
