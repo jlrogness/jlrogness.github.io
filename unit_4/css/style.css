@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:300,700');
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+ /* background-image: url("images/newsprint.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+	}
+h1{
+	font-family: 'Bree Serif', serif;
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #00627F;
+	padding-top: 70px;
+	}
+p{
+	margin-top: 0
+	}
+li {
+    float: left;
+    display: block;
+    color: #00C4FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+h2,h3{
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #00C4FF;
+	}
+/*hr{width: 300px;
+	}*/
+img {
+   padding-left: 5px;
+	}
+#topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00627F;
+}
+#nav {
+    display: block;
+    padding: 8px;
+    font-family: 'Bree Serif', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+	}
+#slogan{
+	font-style: italic;
+	font-size: 32px;
+	}
+#description{
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+#button{
+  	font-family: 'Bree Serif', serif;
+  	text-transform: uppercase;
+ 	text-decoration: none;
+ 	background-color: #EEEEEE;
+  	color: #00627F;
+  	padding: 2px 6px 2px 6px;
+  	border-top: 1px solid #00C4FF;
+  	border-right: 1px solid #00C4FF;
+  	border-bottom: 1px solid #00C4FF;
+  	border-left: 1px solid #00C4FF
+	}
+#footer {
+	display: block;
+    padding: 8px;
+    font-family: 'Bree Serif', serif;
+    font-size: 14px;
+    background-color: #00627F;
+    text-transform: uppercase;
+    text-decoration: none;
+	}

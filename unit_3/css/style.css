@@ -1,40 +1,56 @@
 
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway:900');
+</style>
 body{
   font-family: Helvetica;
   font-size: 16px;
+  line-height: 1.5em;
   text-align: center;
-}
+  /*background-image: url("images/newsprint.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+	}
 h1{
+	font-family: 'Patua One', cursive;
 	font-size: 80px;
 	text-transform: uppercase;
 	  color: #00B6FF;
 	  margin-bottom: 0;
 	  padding-top: 80px;
 	}
-p{
+/*p{
 	margin-top: 0
-	}
-h3{
+	}*/
+h2,h3{
+	font-family: 'Patua One', cursive;
 	font-size: 24px;
 	text-transform: uppercase;
 	  color: #00B6FF;
 	}
 hr{width: 300px;
-}
+	}
 ul {
   list-style-type: none;
   padding-left:0;
-}
+	}
 h4{
-	  color: #00B6FF;
+	font-family: 'Patua One', cursive;
+	color: #00B6FF;
 	text-transform: uppercase;
-}
+	}
 #slogan{
 	font-style: italic;
 	font-size: 40px;
-}
-#description{
-	font-weight: bold;
-	margin-bottom: 0;
-	margin-top: 0;
-}
+	}
+#button{
+  	font: bold 16px Helvetica;
+ 	text-decoration: none;
+ 	background-color: #EEEEEE;
+  	color: #333333;
+  	padding: 2px 6px 2px 6px;
+  	border-top: 1px solid #CCCCCC;
+  	border-right: 1px solid #333333;
+  	border-bottom: 1px solid #333333;
+  	border-left: 1px solid #CCCCCC;
+	}
