@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:300,700');
+body{
+  font-family:'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+}
+header {
+  background-color: #FFED74;
+  padding: 20px 100px 50px 100px;
+   /* background-image: url("../images/newsprint.jpg");
+  background-size: cover;*/
+}
+nav {
+  background-color: #E8C66A;
+  height: 50px;
+}
+ul {
+  list-style: none;
+  padding: 10px 0;
+}
+li {
+  display: inline;
+  color: white;
+}
+section {
+  background-color: #FFE2B8;
+}
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  color: #00627F;
+}
+h2, h3 {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #00627F;
+}
+a {
+  text-decoration: none;
+}
+aside {
+  background-color: #FFC675;
+}
+article {
+ background-color: #E89C6C;
+ padding: 25px;
+}
+img {
+  max-width: 150px;
+}
+footer {
+  background-color: #FF957E;
+}
+#name{
+  font-family: 'Bree Serif', serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #00C4FF;
+  float: left;
+  padding-left: 25px;
+}
+#slogan {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+#description {
+  font-weight: bold;
+  line-height: 1.5em;
+}
+#button {
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  color: #00627F;
+  padding: 6px 10px;
+  border: 1px solid #00C4FF;
+}
+#about {
+  background-image: url("../images/crosshatch.png");
+  background-size: cover;
+  text-align: left;
+}
+#linkedin {
+  max-height: 21px;
+  padding-left: 5px;
+}
+.links {
+  float: right;
+  padding-right: 25px;
+}
+.portfolio {
+  padding: 25px;
+  border: 1px solid #D3D3D3;
+  max-width: 200px;
+}
+.footer {
+  font-family: 'Bree Serif', serif;
+  font-size: 21px;
+  line-height: 1em;
+  text-transform: uppercase;
+  padding: 25px;
+  color: #00C4FF;
+}
