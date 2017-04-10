@@ -225,7 +225,7 @@ footer {
 }
 }
 @media only screen and (max-width: 650px){
-   #name {
+  #name {
     font-size: 2em;
     float: none;
     padding-left: 0em
@@ -233,12 +233,15 @@ footer {
   aside {
     display: none;
   }
+  header {
+    background-image: none;
+  }
   #container {
   width: 90%;
   margin: 0 auto;
   }
   .portfolio {
-    width: 40%;
+    width: 35%;
     border: 2px solid #D3D3D3;
     /*position: relative;*/
     float: left;
@@ -257,9 +260,9 @@ footer {
     float: none;
     background-color: #00627F;
   }
-  body {
-    font-size: 12px;
-  }
+  /*body {
+    font-size: 14px;
+  }*/
   header {
     background-image: none;
   }
@@ -305,27 +308,30 @@ footer {
     width: 90%;
     padding: 0em 0 2em 0;
   }
+  #two_column {
+    padding: 1em 1em;
+  }
   #right {
     float: none;
     padding: 0em;
     text-align: center;
   }
-  #contact {
-    padding: 1.5em 1.5em;
-  }
+  /*#contact {
+    padding: 1.5em;
+  }*/
   #linkedin {
-    /*max-height: 1.3em;*/
-    padding-left: .6em;
-    vertical-align: -.1875em;
+    /*width: 90%;*/
+    padding-left: .3em;
+    vertical-align: -.12em;
   }
   .links {
     font-size: 1em;
     float: none;
     display: inline;
     text-align: center;
-    background-color: rgba(0, 0, 0, .1);
-    padding: .5em .7em;
-    line-height: 4em;
+    /*background-color: rgba(0, 0, 0, .1);*/
+    /*padding: .5em .7em;*/
+    /*line-height: 4em;*/
   }
   .portfolio {
   display: none;
