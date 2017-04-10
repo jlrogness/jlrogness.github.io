@@ -122,6 +122,7 @@ footer {
   background-size: cover;
   width: 100%;
   padding: 2em 0em;
+  margin: 0 auto;
 }
 #left {
     float: left;
@@ -203,8 +204,14 @@ footer {
   width: 90%;
   margin: 0 auto;
 }
-aside {
+  aside {
     display: none;
+  }
+  #right {
+    float: none:
+    padding: 0em;
+    width: 100%;
+    text-align: center;
   }
   .portfolio {
     width: 30%;
