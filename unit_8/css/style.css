@@ -329,9 +329,9 @@ footer {
     float: none;
     display: inline;
     text-align: center;
-    /*background-color: rgba(0, 0, 0, .1);*/
-    /*padding: .5em .7em;*/
-    /*line-height: 4em;*/
+    background-color: rgba(0, 0, 0, .1);
+    padding: .5em .7em;
+    line-height: 4em;
   }
   .portfolio {
   display: none;
