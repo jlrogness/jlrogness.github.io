@@ -113,16 +113,14 @@ footer {
 }
 #container {
   width: 85%;
-  /*padding: 0px 150px 0px 0px;*/
+  padding: 0 0 2.5em 0;
   /*margin-left: 150px;*/
   margin: 0 auto;
 }
 #two_column {
   background-image: url("../images/crosshatch.png");
   background-size: cover;
-  width: 100%;
-  padding: 2em 0em;
-  margin: 0 auto;
+  padding: 2em 2em;
 }
 #left {
     float: left;
@@ -138,7 +136,6 @@ footer {
   /*width: 100%;*/
 }
 #linkedin {
-  max-width: 8%;
   max-height: 1.3em;
   padding-left: .6em;
   vertical-align: -.1875em;
@@ -265,6 +262,7 @@ footer {
   }*/
   header {
     background-image: none;
+    padding-bottom: 1em;
   }
   nav {
   background-color: #00627F;
@@ -274,9 +272,9 @@ footer {
   aside {
     display: none;
   }
-  div {
+  /*div {
     padding: 1em;
-  }
+  }*/
   h1 {
     padding: 1.2em 0 0 0;
   }
@@ -291,8 +289,8 @@ footer {
   background-color: rgba(0, 0, 0, .1);
   width: 100%;
   display: block;
-  border: 2px solid #D3D3D3;
-  margin-top: -1em;
+/*  bottom-border: 2px solid #D3D3D3;
+*/  margin-top: -1em;
   }
   #name {
     font-size: 2em;
@@ -303,6 +301,9 @@ footer {
     font-size: 2em;
     padding: 0em 0em 2em 0em;
     line-height: 0em;
+  }
+  #container {
+  display: none;
   }
   #intro {
     width: 90%;
@@ -322,7 +323,6 @@ footer {
   #linkedin {
     /*width: 90%;*/
     padding-left: .3em;
-    vertical-align: -.12em;
   }
   .links {
     font-size: 1em;
@@ -334,10 +334,11 @@ footer {
     line-height: 4em;
   }
   .portfolio {
-  display: none;
+    display: none;
   }
   .mobile {
     display: block;
+    padding: 0 0 2.4em 0;
   }
   .footer {
     text-align: center;
