@@ -64,8 +64,16 @@ h3, h4 {
 a {
   text-decoration: none;
   padding: 0;
+  color: white;
 }
 a:visited {
+  color: white;
+}
+p a {
+  color: #00627F;
+  font-weight: bold;
+}
+p a:visited {
   color: #00C4FF;
 }
 aside {
@@ -139,9 +147,7 @@ footer a{
   background-color: rgba(100,100,100,.2);
   padding: 2em 3em 2em 3em;
 }
-#contact a:visited {
-  color: #00627F;
-}
+
 #linkedin {
   max-height: 1.3em;
   padding-left: .6em;
