@@ -350,6 +350,6 @@ footer a{
   .footer {
     text-align: center;
     margin: 0 auto;
-    padding: .5em;
+    padding: .5em 0 .5em 0;
   }
 }
