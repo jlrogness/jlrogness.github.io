@@ -28,7 +28,6 @@ ul {
 }
 li {
   display: inline;
-  color: white;
 }
 h1 {
   font-family: 'Bree Serif', serif;
@@ -64,14 +63,13 @@ h3, h4 {
 a {
   text-decoration: none;
   padding: 0;
-  color: white;
 }
 a:visited {
   color: white;
 }
 p a {
   color: #00627F;
-  font-weight: bold;
+  font-weight: 700;
 }
 p a:visited {
   color: #00C4FF;
@@ -147,7 +145,6 @@ footer a{
   background-color: rgba(100,100,100,.2);
   padding: 2em 3em 2em 3em;
 }
-
 #linkedin {
   max-height: 1.3em;
   padding-left: .6em;
