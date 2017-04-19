@@ -266,6 +266,14 @@ footer a{
     float: none;
     background-color: #00627F;
   }
+  a {
+  text-decoration: none;
+  padding: 0;
+  color: #00627F;
+}
+a:visited {
+  color: #00627F;
+}
   header {
     background-image: none;
     padding-bottom: 1em;
